@@ -1,0 +1,6 @@
+#+title: Prototype Desgin
+* Initialization Function
+- Creates a DB instance, this instance is static so as not to be destoryed after the function call.
+- Assign the address of the DB instance to the DB global pointer.
+* De-initialization function
+- Destroys the DB instance
